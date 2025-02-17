@@ -39,8 +39,8 @@ const Navbar = ({ dark, setDark, rtl, setRtl }) => {
           </p>
           <p className={styles.moreinfo}>שחקן טניס</p>
         </div>
-        <div
-          className={`theme-toggle-item ${dark ? "dark" : "light"}`}
+        {/* <div
+          className={`theme-toggle-item ${light ? "dark" : "dark"}`}
           onClick={handleMode}
         >
           <svg
@@ -73,7 +73,7 @@ const Navbar = ({ dark, setDark, rtl, setRtl }) => {
               <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
             </g>
           </svg>
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -102,7 +102,7 @@ export default function RootLayout({ children }) {
       <body
         className={
           rubik.className +
-          ` ${dark ? "light" : "dark"}` +
+          ` light` +
           " " +
           ` ${rtl ? "isrtl" : "isltr"}`
         }
