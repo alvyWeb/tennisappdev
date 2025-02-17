@@ -18,7 +18,7 @@ function FutureModal({ onClose }) {
                 width="120"
                 height="5"
                 viewBox="0 0 120 5"
-                fill="none"
+                // fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
                 <rect width="120" height="5" rx="2.5" fill="#D9D9D9" />
